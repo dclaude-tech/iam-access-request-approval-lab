@@ -40,6 +40,19 @@ Each request is reviewed based on business justification, least privilege, appro
 | TICKET-002 | HR employee records access request | Denied |
 | TICKET-003 | IT service desk tools access request | Requires manager or resource-owner approval |
 
+## Repository structure
+
+| Folder | Purpose |
+|---|---|
+| docs | Supporting lab documentation and process notes |
+| screenshots | Visual evidence collected throughout the lab |
+| screenshots/01-repository-setup | Repository setup evidence |
+| screenshots/02-entra-groups | Microsoft Entra group configuration evidence |
+| screenshots/03-access-packages | Entitlement management or access package evidence |
+| screenshots/04-ticket-workflows | Access request, approval, denial, and ticket workflow evidence |
+| screenshots/05-access-verification | Access assignment and verification evidence |
+| tickets | Fictional IAM ticket documentation for each access request scenario |
+
 ## Project status
 
 In progress.
