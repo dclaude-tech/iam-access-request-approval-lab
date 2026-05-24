@@ -40,6 +40,16 @@ Each request is reviewed based on business justification, least privilege, appro
 | TICKET-002 | HR employee records access request | Denied |
 | TICKET-003 | IT service desk tools access request | Requires manager or resource-owner approval |
 
+## Supporting access groups
+
+| Security group | Purpose | Access level |
+|---|---|---|
+| SG-Finance-Reports-Read | Provides access to fictional Finance reporting resources | Read-only |
+| SG-HR-Employee-Records-Read | Provides access to fictional HR employee records resources | Read-only |
+| SG-IT-ServiceDesk-Tools | Provides access to fictional IT service desk tools | Standard user access |
+
+These groups are intentionally created without members at the start of the lab. Access will be assigned later through the access request and approval workflow.
+
 ## Repository structure
 
 | Folder | Purpose |
