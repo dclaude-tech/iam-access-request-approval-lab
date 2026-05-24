@@ -16,7 +16,7 @@ Each request is reviewed based on business justification, least privilege, appro
 
 - Microsoft Entra ID
 - Microsoft Entra security groups
-- Microsoft Entra entitlement management, if available
+- Microsoft Entra entitlement management
 - GitHub
 - Markdown documentation
 
@@ -50,6 +50,17 @@ Each request is reviewed based on business justification, least privilege, appro
 
 These groups are intentionally created without members at the start of the lab. Access will be assigned later through the access request and approval workflow.
 
+## Lab identities
+
+| User | Role in lab | Ticket use |
+|---|---|---|
+| Ava Finance | Finance requester | TICKET-001 approved Finance reports access |
+| Mia HR | HR requester | TICKET-002 denied HR employee records access |
+| Leo IT | IT requester | TICKET-003 IT service desk tools request |
+| Riley Manager | Approver/resource owner | Approval review for access requests |
+
+These are fictional lab identities created only for portfolio documentation and IAM workflow simulation.
+
 ## Repository structure
 
 | Folder | Purpose |
@@ -58,7 +69,7 @@ These groups are intentionally created without members at the start of the lab. 
 | screenshots | Visual evidence collected throughout the lab |
 | screenshots/01-repository-setup | Repository setup evidence |
 | screenshots/02-entra-groups | Microsoft Entra group configuration evidence |
-| screenshots/03-access-packages | Entitlement management or access package evidence |
+| screenshots/03-access-packages | Entitlement management and access package evidence |
 | screenshots/04-ticket-workflows | Access request, approval, denial, and ticket workflow evidence |
 | screenshots/05-access-verification | Access assignment and verification evidence |
 | tickets | Fictional IAM ticket documentation for each access request scenario |
