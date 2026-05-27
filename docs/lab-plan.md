@@ -64,4 +64,10 @@ Screenshots will be collected to document:
 
 Entitlement management availability: Available.
 
+## Lab user licensing note
+
+The fictional lab identities used in the request and approval workflow were prepared with Microsoft Entra ID P2 licensing so they can participate in the entitlement management workflow.
+
+No licensing screenshots are included because licensing pages may expose tenant or subscription details that are not necessary for public portfolio documentation.
+
 Lab path selected: Access package-based workflow.
