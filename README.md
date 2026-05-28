@@ -40,6 +40,16 @@ Each request is reviewed based on business justification, least privilege, appro
 | TICKET-002 | HR employee records access request | Denied |
 | TICKET-003 | IT service desk tools access request | Requires manager or resource-owner approval |
 
+## Ticket documentation
+
+Each ticket is documented in the `tickets` folder using a consistent IAM review format. The ticket files capture the requester, requested access, business justification, approval path, access assignment, verification evidence, and closure notes.
+
+| Ticket | Documentation |
+|---|---|
+| TICKET-001 | `tickets/TICKET-001-finance-reports-read.md` |
+| TICKET-002 | `tickets/TICKET-002-hr-employee-records-read.md` |
+| TICKET-003 | `tickets/TICKET-003-it-servicedesk-tools.md` |
+
 ## Supporting access groups
 
 | Security group | Purpose | Access level |
