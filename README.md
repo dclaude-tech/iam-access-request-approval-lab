@@ -58,7 +58,17 @@ These groups are intentionally created without members at the start of the lab. 
 | AP-HR-Employee-Records-Read | SG-HR-Employee-Records-Read | Request-based access to fictional HR employee records resources |
 | AP-IT-ServiceDesk-Tools | SG-IT-ServiceDesk-Tools | Request-based access to fictional IT service desk tools |
 
-Each access package is connected to a dedicated Microsoft Entra security group. Request and approval policies will be configured separately to support the ticket scenarios.
+Each access package is connected to a dedicated Microsoft Entra security group. Request and approval policies are configured to support the ticket scenarios.
+
+## Request and approval policies
+
+| Access package              | Eligible requester | Approval required | Approver      | Justification required |
+| --------------------------- | ------------------ | ----------------- | ------------- | ---------------------- |
+| AP-Finance-Reports-Read     | Ava Finance        | Yes               | Riley Manager | Yes                    |
+| AP-HR-Employee-Records-Read | Mia HR             | Yes               | Riley Manager | Yes                    |
+| AP-IT-ServiceDesk-Tools     | Leo IT             | Yes               | Riley Manager | Yes                    |
+
+Each access package uses an enabled request approval policy. The policies limit who can request access, require business justification, and route approval to a fictional approver/resource owner before access is assigned.
 
 ## Lab identities
 
