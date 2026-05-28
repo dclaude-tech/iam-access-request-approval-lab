@@ -50,6 +50,16 @@ Each request is reviewed based on business justification, least privilege, appro
 
 These groups are intentionally created without members at the start of the lab. Access will be assigned later through the access request and approval workflow.
 
+## Access packages
+
+| Access package | Connected security group | Purpose |
+|---|---|---|
+| AP-Finance-Reports-Read | SG-Finance-Reports-Read | Request-based access to fictional Finance reporting resources |
+| AP-HR-Employee-Records-Read | SG-HR-Employee-Records-Read | Request-based access to fictional HR employee records resources |
+| AP-IT-ServiceDesk-Tools | SG-IT-ServiceDesk-Tools | Request-based access to fictional IT service desk tools |
+
+Each access package is connected to a dedicated Microsoft Entra security group. Request and approval policies will be configured separately to support the ticket scenarios.
+
 ## Lab identities
 
 | User | Role in lab | Ticket use |
